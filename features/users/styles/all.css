@@ -1,0 +1,82 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    color: whitesmoke;
+    padding: 4px;
+
+}
+
+nav{
+background-color: red;
+padding: 5px;
+}
+
+
+body{
+  
+background-color: black;
+}
+.wel{
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: aqua;
+}
+
+.inputs{
+    position: absolute;
+    left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+padding: 5%;
+background-color: rgb(211, 211, 223);
+border-radius: 5px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+input{
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+button{
+    padding: 5px;
+    background-color: rgb(255, 3, 3);
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.u{
+    position: absolute;
+    left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+background-color: rgb(31, 29, 30);
+padding: 45px;
+}
+.allusers{
+    position: absolute;
+    left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+padding: 20px;
+background-color:rgb(31, 29, 30);
+display: flex;
+flex-direction: column;
+gap: 10px;
+
+}
+
+.searchbar{
+    margin-top: 30px;
+    padding: 10px;
+}
